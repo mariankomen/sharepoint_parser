@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from  import List
+from typing import List
 import requests
 import browsercookie
 from urllib.parse import urlparse, parse_qs, urlunparse, urlunsplit, quote
