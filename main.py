@@ -10,7 +10,7 @@ app = FastAPI()
 class Item(BaseModel):
     link: str
 
-@app.get("/")
+@app.post("/")
 async def root(items: List[Item]):
     response = []
 
