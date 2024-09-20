@@ -28,3 +28,7 @@ async def root(items: List[Item]):
             "new_link": new_link
         })
     return response
+
+if __name__ == '__main__':
+    import uvicorn
+    uvicorn.run(app)
